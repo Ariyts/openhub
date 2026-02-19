@@ -2,7 +2,7 @@
   "name": "Pentest Hub",
   "short_name": "PentestHub",
   "description": "Private penetration testing knowledge base",
-  "start_url": "/",
+  "start_url": "/openhub/",
   "display": "standalone",
   "background_color": "#09090b",
   "theme_color": "#10b981",
@@ -20,17 +20,17 @@
   "shortcuts": [
     {
       "name": "Prompts",
-      "url": "/#/",
+      "url": "/openhub/#/",
       "description": "View prompts library"
     },
     {
       "name": "Notes",
-      "url": "/#/notes",
+      "url": "/openhub/#/notes",
       "description": "View pentest notes"
     },
     {
       "name": "Snippets",
-      "url": "/#/snippets",
+      "url": "/openhub/#/snippets",
       "description": "View command snippets"
     }
   ]

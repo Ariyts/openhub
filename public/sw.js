@@ -1,7 +1,7 @@
 const CACHE_NAME = 'pentest-hub-v1';
 const STATIC_ASSETS = [
-  '/',
-  '/index.html',
+  '/openhub/',
+  '/openhub/index.html',
 ];
 
 // Install event - cache static assets
@@ -64,7 +64,7 @@ self.addEventListener('fetch', (event) => {
       }).catch(() => {
         // Offline fallback for HTML pages
         if (event.request.headers.get('Accept')?.includes('text/html')) {
-          return caches.match('/');
+          return caches.match('/openhub/');
         }
         return new Response('Offline', { status: 503 });
       });

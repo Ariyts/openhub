@@ -10,7 +10,7 @@
     <meta name="apple-mobile-web-app-title" content="Pentest Hub" />
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡️</text></svg>" />
     <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%2309090b'/><text y='.9em' font-size='90'>🛡️</text></svg>" />
-    <link rel="manifest" href="/my-notes-app/manifest.json" />
+    <link rel="manifest" href="/openhub/manifest.json" />
     <title>Pentest Hub</title>
     <style>
       /* Critical CSS for faster FCP */
@@ -43,8 +43,8 @@
         to { transform: rotate(360deg); }
       }
     </style>
-    <script type="module" crossorigin src="/my-notes-app/assets/index-Dn9dR7A3.js"></script>
-    <link rel="stylesheet" crossorigin href="/my-notes-app/assets/index-CXR2aq28.css">
+    <script type="module" crossorigin src="/openhub/assets/index-Cf0AxDMB.js"></script>
+    <link rel="stylesheet" crossorigin href="/openhub/assets/index-CXR2aq28.css">
   </head>
   <body>
     <div id="root">
@@ -57,7 +57,7 @@
       // Register Service Worker for PWA
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/my-notes-app/sw.js')
+          navigator.serviceWorker.register('/openhub/sw.js')
             .then(reg => console.log('SW registered:', reg.scope))
             .catch(err => console.log('SW registration failed:', err));
         });
