@@ -15,8 +15,8 @@ export interface SyncResult {
 
 const REPO_CONFIG = {
   owner: 'Ariyts',
-  repo: 'my-notes-app',
-  branch: 'master',
+  repo: 'openhub',
+  branch: 'main',
   dataPath: 'src/data',
 };
 
